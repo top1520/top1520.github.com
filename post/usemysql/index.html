@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>mysql使用记录 - top1520.com</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="top1520" /><meta name="description" content="#查看数据库物理存放目录： show variables like &amp;quot;%datadir%&amp;quot; #查看所有数据库：show databases #选择数据库：use your_db_name #查看数据库表结构(需要先选择数据库【use your_d" /><meta name="keywords" content="Top1520, Top1, 派见" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.72.0 with theme even" />
+
+
+<link rel="canonical" href="http://top1520.com/post/usemysql/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.8c3cbcb0324c2bb4875ceccba4007cbad4b4ac8377f33af9953c3e7684534a50.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="mysql使用记录" />
+<meta property="og:description" content="#查看数据库物理存放目录： show variables like &quot;%datadir%&quot; #查看所有数据库：show databases #选择数据库：use your_db_name #查看数据库表结构(需要先选择数据库【use your_d" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://top1520.com/post/usemysql/" />
+<meta property="article:published_time" content="2020-06-10T11:20:28+08:00" />
+<meta property="article:modified_time" content="2020-06-10T11:20:28+08:00" />
+<meta itemprop="name" content="mysql使用记录">
+<meta itemprop="description" content="#查看数据库物理存放目录： show variables like &quot;%datadir%&quot; #查看所有数据库：show databases #选择数据库：use your_db_name #查看数据库表结构(需要先选择数据库【use your_d">
+<meta itemprop="datePublished" content="2020-06-10T11:20:28&#43;08:00" />
+<meta itemprop="dateModified" content="2020-06-10T11:20:28&#43;08:00" />
+<meta itemprop="wordCount" content="757">
+
+
+
+<meta itemprop="keywords" content="mysql," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="mysql使用记录"/>
+<meta name="twitter:description" content="#查看数据库物理存放目录： show variables like &quot;%datadir%&quot; #查看所有数据库：show databases #选择数据库：use your_db_name #查看数据库表结构(需要先选择数据库【use your_d"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Top1520</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">文章</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Top1520</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">文章</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">mysql使用记录</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-06-10 </span>
+        <div class="post-category">
+            <a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"> 数据库 </a>
+            </div>
+          <span class="more-meta"> 约 757 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>#查看数据库物理存放目录：
+<code>show variables like &quot;%datadir%&quot;</code></p>
+<p>#查看所有数据库：show databases</p>
+<p>#选择数据库：use your_db_name</p>
+<p>#查看数据库表结构(需要先选择数据库【use your_db_name】)：describe your_table_name</p>
+<p>#获取某个数据库的所有表的名字：</p>
+<p>#方法一：SELECT table_name FROM information_schema.tables WHERE table_schema = &lsquo;your_db_name&rsquo; AND table_type = &lsquo;base table&rsquo;</p>
+<p>#方法二：(需要先选择数据库【use your_db_name】) show tables</p>
+<p>#获取所有表的所有字段名：select table_name,column_name from information_schema.columns order by table_schema,table_name;</p>
+<p>#获取表的所有字段名：select COLUMN_NAME from information_schema.COLUMNS where table_name = ‘your_table_name’ and table_schema = ‘your_db_name’;</p>
+<p>#查看数据库所有索引：SELECT * FROM mysql.<code>innodb_index_stats</code> a WHERE a.<code>database_name</code> = &lsquo;your_db_name&rsquo;;</p>
+<p>#查看某一表索引：SELECT * FROM mysql.<code>innodb_index_stats</code> a WHERE a.<code>database_name</code> = &lsquo;your_db_name&rsquo; and a.table_name = &lsquo;your_table_name&rsquo;;</p>
+<p>#查看某一表索引(需要先选择数据库【use mydatabyour_db_namesename】)：show index from your_table_name</p>
+<p>#启动和关闭外键约束的方法：SET FOREIGN_KEY_CHECKS = 0/1; (查看：SELECT  @@FOREIGN_KEY_CHECKS)</p>
+<p>#查看开关状态：show variables like &lsquo;SQL_SAFE_UPDATES&rsquo;;</p>
+<p>#修改下数据库模式：SET SQL_SAFE_UPDATES = 0;</p>
+<p>#复制列的值：update demo_db.user_info set r=remark where id&gt;0</p>
+<p>#替换字符串：update user_info set r=replace(r,&lsquo;<a href="http://www.xxx.com/',''">http://www.xxx.com/',''</a>) where id&gt;0;</p>
+<p>#查找列值是数字的记录：SELECT book_id FROM books WHERE book_id REGEXP &lsquo;[0-9]{1,}&rsquo; limit 10000;</p>
+<p>#查找列值不是数字的列的记录：SELECT book_id FROM books WHERE book_id REGEXP &lsquo;[0-9]{1,}&lsquo;=0 limit 10000;</p>
+<p>#查看当前连接情况：show processlist;  或者 select * from information_schema.processlist;</p>
+<p>#记录存在则更新，不存在则插入：INSERT INTO testTabe (c1,c2,c3) VALUES (1,&lsquo;insert c2&rsquo;,&lsquo;insert c3&rsquo;) ON DUPLICATE KEY UPDATE c2='update c2&rsquo;,c3='update c3&rsquo;;</p>
+<p>#导入本地csv文件（摘自：https://blog.csdn.net/quiet_girl/article/details/71436108）：</p>
+<p>LOAD DATA LOCAL INFILE &lsquo;E:\DB\data.csv&rsquo; into table your_db_name.your_table_name fields terminated by &lsquo;,&rsquo; optionally enclosed by &lsquo;&quot;&rsquo; escaped by &lsquo;&quot;&rsquo; lines terminated by &lsquo;\r\n&rsquo;;</p>
+<p>#导入本地csv文件（摘自：https://www.cnblogs.com/ahudyan-forever/p/5817847.html）：</p>
+<p>LOAD DATA LOCAL INFILE &lsquo;E:\DB\data.csv&rsquo; INTO TABLE <code>your_db_name</code>.<code>your_table_name</code> FIELDS ESCAPED BY &lsquo;\&rsquo; TERMINATED BY &lsquo;,&rsquo; ENCLOSED BY &lsquo;&quot;&rsquo; LINES TERMINATED BY &lsquo;\r\n&rsquo; (<code>AREA_NAME</code>, <code>AREA_CODE</code>, <code>CITY_ID</code>, <code>PROVINCE_NAME</code>, <code>PROVINCE_CODE</code>)</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">top1520</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2020-06-10
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/mysql/">mysql</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/uselinux/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Linux使用记录</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/gituse/">
+            <span class="next-text nav-default">Git使用记录</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://github.com/top1520" class="iconfont icon-github" title="github"></a>
+  <a href="http://top1520.com/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020 - 
+    2021
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">top1520</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
