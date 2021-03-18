@@ -2,179 +2,188 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on top1520.com</title>
-    <link>http://top1520.com/post/</link>
+    <link>https://top1520.com/post/</link>
     <description>Recent content in Posts on top1520.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 04 Feb 2021 17:45:01 +0800</lastBuildDate><atom:link href="http://top1520.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Mar 2021 14:24:23 +0800</lastBuildDate><atom:link href="https://top1520.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深圳二手房参考价/指导价查询助手</title>
+      <link>https://top1520.com/post/szesfzs/</link>
+      <pubDate>Mon, 01 Mar 2021 14:24:23 +0800</pubDate>
+      
+      <guid>https://top1520.com/post/szesfzs/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>从春晚标王到百亿红包大战看投资方向</title>
-      <link>http://top1520.com/post/2021020418/</link>
+      <link>https://top1520.com/post/2021020418/</link>
       <pubDate>Thu, 04 Feb 2021 17:45:01 +0800</pubDate>
       
-      <guid>http://top1520.com/post/2021020418/</guid>
+      <guid>https://top1520.com/post/2021020418/</guid>
       <description>年份 赞助品牌商 年份 赞助品牌商 年份 赞助品牌商 1984 康巴丝钟表 1997 四川沱牌曲酒 2010 美的集团 1985 康巴丝钟表 1998 四川沱牌曲酒 2011 美的集团 1986 康巴丝钟表 1999 步步高vcd</description>
     </item>
     
     <item>
       <title>简单地努力并不能帮助你获取到高收益</title>
-      <link>http://top1520.com/post/2021012912/</link>
+      <link>https://top1520.com/post/2021012912/</link>
       <pubDate>Fri, 29 Jan 2021 12:02:08 +0800</pubDate>
       
-      <guid>http://top1520.com/post/2021012912/</guid>
+      <guid>https://top1520.com/post/2021012912/</guid>
       <description>为什么努力是没有用的？老师或父母老是说努力努力就会走到巅峰——才怪。如果这样，不是所有人都走上巅峰了吗？没有人开始不努力，为什么后来不努力，</description>
     </item>
     
     <item>
       <title>2020胡润品牌榜</title>
-      <link>http://top1520.com/post/top2021012119/</link>
+      <link>https://top1520.com/post/top2021012119/</link>
       <pubDate>Thu, 21 Jan 2021 18:00:09 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2021012119/</guid>
+      <guid>https://top1520.com/post/top2021012119/</guid>
       <description>2020最具价值中国品牌十强 【投资建议：除了“中华”，其他对应上市的股票都值得考虑投资】 - 品牌 品牌价值（亿元人民币） 母公司 总部 1 - 贵州茅台*</description>
     </item>
     
     <item>
       <title>财富之语</title>
-      <link>http://top1520.com/post/quotationsofwealth/</link>
+      <link>https://top1520.com/post/quotationsofwealth/</link>
       <pubDate>Fri, 01 Jan 2021 12:10:00 +0800</pubDate>
       
-      <guid>http://top1520.com/post/quotationsofwealth/</guid>
+      <guid>https://top1520.com/post/quotationsofwealth/</guid>
       <description>爱默生-美国思想家、文学家、诗人 健康是人生的第一财富。 塞内加-古罗马哲学家 伟大的思想能变成巨大的财富。 查理·芒格 我这辈子遇到的聪明人（来自各</description>
     </item>
     
     <item>
       <title>python pillow 转8位带调色板的bmp</title>
-      <link>http://top1520.com/post/2020120712/</link>
+      <link>https://top1520.com/post/2020120712/</link>
       <pubDate>Mon, 07 Dec 2020 12:07:50 +0800</pubDate>
       
-      <guid>http://top1520.com/post/2020120712/</guid>
+      <guid>https://top1520.com/post/2020120712/</guid>
       <description>1 2 3 4 5 6 from PIL import Image src = &amp;#39;E:\\temp\\logo.jpeg&amp;#39; dst = &amp;#39;E:\\temp\\logo.bmp&amp;#39; img = Image.open(src) img.convert(&amp;#39;P&amp;#39;).save(dst)</description>
     </item>
     
     <item>
       <title>2020年中国互联网100强</title>
-      <link>http://top1520.com/post/top2020111020/</link>
+      <link>https://top1520.com/post/top2020111020/</link>
       <pubDate>Tue, 10 Nov 2020 20:51:48 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020111020/</guid>
+      <guid>https://top1520.com/post/top2020111020/</guid>
       <description>排名 名称 主要业务和品牌 所属地 1 阿里巴巴(中国)有限公司 淘宝、天猫、阿里云、钉钉 浙江省 2 深圳市腾讯计算机系统有限公司 微信、腾讯云、腾讯视频、腾</description>
     </item>
     
     <item>
       <title>2019年中国互联网100强</title>
-      <link>http://top1520.com/post/top2020111019/</link>
+      <link>https://top1520.com/post/top2020111019/</link>
       <pubDate>Tue, 10 Nov 2020 19:51:48 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020111019/</guid>
+      <guid>https://top1520.com/post/top2020111019/</guid>
       <description>排名 中文名称 企业简称 主要品牌 1 阿里巴巴（中国）有限公司 阿里巴巴 淘宝、阿里云、高德 2 深圳市腾讯计算机系统有限责任公司 腾讯公司 微信、QQ、腾讯网</description>
     </item>
     
     <item>
       <title>2018年中国互联网100强</title>
-      <link>http://top1520.com/post/top2020110918/</link>
+      <link>https://top1520.com/post/top2020110918/</link>
       <pubDate>Mon, 09 Nov 2020 18:51:48 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020110918/</guid>
+      <guid>https://top1520.com/post/top2020110918/</guid>
       <description>排名 中文名称 企业简称 品牌与服务 1 阿里巴巴集团 阿里 淘宝网、支付宝、蚂蚁金服、优酷 2 深圳市腾讯计算机系统有限公司 腾讯公司 微信、QQ、腾讯网、腾讯</description>
     </item>
     
     <item>
       <title>2017年中国互联网100强</title>
-      <link>http://top1520.com/post/top2020110917/</link>
+      <link>https://top1520.com/post/top2020110917/</link>
       <pubDate>Mon, 09 Nov 2020 17:51:48 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020110917/</guid>
+      <guid>https://top1520.com/post/top2020110917/</guid>
       <description>排名 中文名称 企业简称 主要品牌 1 深圳市腾讯计算机系统有限公司 腾讯 微信、QQ、腾讯网、腾讯游戏 2 阿里巴巴集团 阿里巴巴 淘宝、天猫、优酷、土豆 3 百度</description>
     </item>
     
     <item>
       <title>2016年中国互联网100强</title>
-      <link>http://top1520.com/post/top2020110916/</link>
+      <link>https://top1520.com/post/top2020110916/</link>
       <pubDate>Mon, 09 Nov 2020 16:51:48 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020110916/</guid>
+      <guid>https://top1520.com/post/top2020110916/</guid>
       <description>排名 公司名称 主要品牌 1 阿里巴巴集团 阿里巴巴、淘宝、天猫 2 腾讯公司 腾讯、QQ、微信 3 百度公司 百度 4 京东集团 京东 5 奇虎360科技有限公司 360安</description>
     </item>
     
     <item>
       <title>2015年中国互联网100强</title>
-      <link>http://top1520.com/post/top2020110815/</link>
+      <link>https://top1520.com/post/top2020110815/</link>
       <pubDate>Sun, 08 Nov 2020 15:51:48 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020110815/</guid>
+      <guid>https://top1520.com/post/top2020110815/</guid>
       <description>排名 公司名称 1 阿里巴巴集团 2 腾讯公司 3 百度公司 4 京东集团 5 奇虎360科技有限公司 6 搜狐公司 7 网易公司 8 新浪公司 9 携程计算机技术（上海）有限公</description>
     </item>
     
     <item>
       <title>2014年中国互联网100强</title>
-      <link>http://top1520.com/post/top2020110814/</link>
+      <link>https://top1520.com/post/top2020110814/</link>
       <pubDate>Sun, 08 Nov 2020 14:51:48 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020110814/</guid>
+      <guid>https://top1520.com/post/top2020110814/</guid>
       <description>排名 名称 1 腾讯控股有限公司 2 阿里巴巴集团控股有限公司 3 百度股份有限公司 4 京东有限公司 5 搜狐网络有限责任公司 6 奇虎360科技有限公司 7 小米科技</description>
     </item>
     
     <item>
       <title>2013年中国互联网100强</title>
-      <link>http://top1520.com/post/top2020110813/</link>
+      <link>https://top1520.com/post/top2020110813/</link>
       <pubDate>Sun, 08 Nov 2020 13:51:48 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020110813/</guid>
+      <guid>https://top1520.com/post/top2020110813/</guid>
       <description>排名 名称 1 腾讯（深圳市腾讯计算机系统有限公司） 2 阿里巴巴（阿里巴巴集团） 3 百度（百度公司） 4 网易（网易公司） 5 搜狐（搜狐集团） 6 新浪网（新浪</description>
     </item>
     
     <item>
       <title>2019年全球清廉指数top20</title>
-      <link>http://top1520.com/post/top2020082012/</link>
+      <link>https://top1520.com/post/top2020082012/</link>
       <pubDate>Thu, 20 Aug 2020 12:10:18 +0800</pubDate>
       
-      <guid>http://top1520.com/post/top2020082012/</guid>
+      <guid>https://top1520.com/post/top2020082012/</guid>
       <description>国家 分数 排名 对比上年 2018年分数 2018年排名 Denmark(丹麦) 87 1 0 88 1 New Zealand(新西兰) 87 1 +1 87 2 Finland(芬兰) 86</description>
     </item>
     
     <item>
       <title>Windows下Mysql5.7忘记root密码的解决方法</title>
-      <link>http://top1520.com/post/2020061810/</link>
+      <link>https://top1520.com/post/2020061810/</link>
       <pubDate>Thu, 18 Jun 2020 10:32:55 +0800</pubDate>
       
-      <guid>http://top1520.com/post/2020061810/</guid>
+      <guid>https://top1520.com/post/2020061810/</guid>
       <description>1、打开第一个cmd窗口执行 net stop mysql57 2、在第一个cmd窗口执行 mysqld &amp;ndash;defaults-file=&amp;ldquo;C:\ProgramData\MySQL\MySQL Server 5.7\my.ini&amp;rdquo; &amp;ndash;skip-grant-tables &amp;mdash;注意路径（以你的实际情况为准） 3、打开第二个cmd窗口执</description>
     </item>
     
     <item>
       <title>Python3 PIL Image 操作文件后导致占用问题</title>
-      <link>http://top1520.com/post/2020061315/</link>
+      <link>https://top1520.com/post/2020061315/</link>
       <pubDate>Sat, 13 Jun 2020 15:30:05 +0800</pubDate>
       
-      <guid>http://top1520.com/post/2020061315/</guid>
+      <guid>https://top1520.com/post/2020061315/</guid>
       <description>需求：按图片分辨率范围分类图片（每个商品有N张图片在一个目录内）。 实现：用PIL Image打开图片并读取宽度和高度。然后按不同分辨率存档到不</description>
     </item>
     
     <item>
       <title>Linux使用记录</title>
-      <link>http://top1520.com/post/uselinux/</link>
+      <link>https://top1520.com/post/uselinux/</link>
       <pubDate>Thu, 11 Jun 2020 18:22:20 +0800</pubDate>
       
-      <guid>http://top1520.com/post/uselinux/</guid>
+      <guid>https://top1520.com/post/uselinux/</guid>
       <description>查看资源使用情况： free -m -s5 &amp;mdash;查看内存【-s5：5秒自动更新显示】 （[－b －k －m] [－o] [－s delay] [－t] [－V]） uptime &amp;mdash</description>
     </item>
     
     <item>
       <title>mysql使用记录</title>
-      <link>http://top1520.com/post/usemysql/</link>
+      <link>https://top1520.com/post/usemysql/</link>
       <pubDate>Wed, 10 Jun 2020 11:20:28 +0800</pubDate>
       
-      <guid>http://top1520.com/post/usemysql/</guid>
+      <guid>https://top1520.com/post/usemysql/</guid>
       <description>#查看数据库物理存放目录： show variables like &amp;quot;%datadir%&amp;quot; #查看所有数据库：show databases #选择数据库：use your_db_name #查看数据库表结构(需要先选择数据库【use your_d</description>
     </item>
     
     <item>
       <title>Git使用记录</title>
-      <link>http://top1520.com/post/gituse/</link>
+      <link>https://top1520.com/post/gituse/</link>
       <pubDate>Tue, 09 Jun 2020 13:39:54 +0800</pubDate>
       
-      <guid>http://top1520.com/post/gituse/</guid>
+      <guid>https://top1520.com/post/gituse/</guid>
       <description>官网 官网下载页 淘宝nmp下载页 克隆仓库源码：git clone https://github.com/top1520/top1520.github.com.git 添加所有文件/目录：git add -A 填写提交信息：git commit -m &amp;ldquo;first commit&amp;rdquo; 提交到仓库：git push -u origin master 设</description>
     </item>
     

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://top1520.com/sitemap.xml
+Sitemap: https://top1520.com/sitemap.xml

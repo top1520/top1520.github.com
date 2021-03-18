@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开发 on top1520.com</title>
-    <link>http://top1520.com/categories/%E5%BC%80%E5%8F%91/</link>
+    <link>https://top1520.com/categories/%E5%BC%80%E5%8F%91/</link>
     <description>Recent content in 开发 on top1520.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 07 Dec 2020 12:07:50 +0800</lastBuildDate><atom:link href="http://top1520.com/categories/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Dec 2020 12:07:50 +0800</lastBuildDate><atom:link href="https://top1520.com/categories/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>python pillow 转8位带调色板的bmp</title>
-      <link>http://top1520.com/post/2020120712/</link>
+      <link>https://top1520.com/post/2020120712/</link>
       <pubDate>Mon, 07 Dec 2020 12:07:50 +0800</pubDate>
       
-      <guid>http://top1520.com/post/2020120712/</guid>
+      <guid>https://top1520.com/post/2020120712/</guid>
       <description>1 2 3 4 5 6 from PIL import Image src = &amp;#39;E:\\temp\\logo.jpeg&amp;#39; dst = &amp;#39;E:\\temp\\logo.bmp&amp;#39; img = Image.open(src) img.convert(&amp;#39;P&amp;#39;).save(dst)</description>
     </item>
     
     <item>
       <title>Python3 PIL Image 操作文件后导致占用问题</title>
-      <link>http://top1520.com/post/2020061315/</link>
+      <link>https://top1520.com/post/2020061315/</link>
       <pubDate>Sat, 13 Jun 2020 15:30:05 +0800</pubDate>
       
-      <guid>http://top1520.com/post/2020061315/</guid>
+      <guid>https://top1520.com/post/2020061315/</guid>
       <description>需求：按图片分辨率范围分类图片（每个商品有N张图片在一个目录内）。 实现：用PIL Image打开图片并读取宽度和高度。然后按不同分辨率存档到不</description>
     </item>
     

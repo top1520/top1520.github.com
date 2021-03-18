@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on top1520.com</title>
-    <link>http://top1520.com/tags/git/</link>
+    <link>https://top1520.com/tags/git/</link>
     <description>Recent content in git on top1520.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 09 Jun 2020 13:39:54 +0800</lastBuildDate><atom:link href="http://top1520.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jun 2020 13:39:54 +0800</lastBuildDate><atom:link href="https://top1520.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git使用记录</title>
-      <link>http://top1520.com/post/gituse/</link>
+      <link>https://top1520.com/post/gituse/</link>
       <pubDate>Tue, 09 Jun 2020 13:39:54 +0800</pubDate>
       
-      <guid>http://top1520.com/post/gituse/</guid>
+      <guid>https://top1520.com/post/gituse/</guid>
       <description>官网 官网下载页 淘宝nmp下载页 克隆仓库源码：git clone https://github.com/top1520/top1520.github.com.git 添加所有文件/目录：git add -A 填写提交信息：git commit -m &amp;ldquo;first commit&amp;rdquo; 提交到仓库：git push -u origin master 设</description>
     </item>
     

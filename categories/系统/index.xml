@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>系统 on top1520.com</title>
-    <link>http://top1520.com/categories/%E7%B3%BB%E7%BB%9F/</link>
+    <link>https://top1520.com/categories/%E7%B3%BB%E7%BB%9F/</link>
     <description>Recent content in 系统 on top1520.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 11 Jun 2020 18:22:20 +0800</lastBuildDate><atom:link href="http://top1520.com/categories/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jun 2020 18:22:20 +0800</lastBuildDate><atom:link href="https://top1520.com/categories/%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux使用记录</title>
-      <link>http://top1520.com/post/uselinux/</link>
+      <link>https://top1520.com/post/uselinux/</link>
       <pubDate>Thu, 11 Jun 2020 18:22:20 +0800</pubDate>
       
-      <guid>http://top1520.com/post/uselinux/</guid>
+      <guid>https://top1520.com/post/uselinux/</guid>
       <description>查看资源使用情况： free -m -s5 &amp;mdash;查看内存【-s5：5秒自动更新显示】 （[－b －k －m] [－o] [－s delay] [－t] [－V]） uptime &amp;mdash</description>
     </item>
     

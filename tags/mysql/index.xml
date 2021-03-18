@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mysql on top1520.com</title>
-    <link>http://top1520.com/tags/mysql/</link>
+    <link>https://top1520.com/tags/mysql/</link>
     <description>Recent content in mysql on top1520.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 18 Jun 2020 10:32:55 +0800</lastBuildDate><atom:link href="http://top1520.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jun 2020 10:32:55 +0800</lastBuildDate><atom:link href="https://top1520.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows下Mysql5.7忘记root密码的解决方法</title>
-      <link>http://top1520.com/post/2020061810/</link>
+      <link>https://top1520.com/post/2020061810/</link>
       <pubDate>Thu, 18 Jun 2020 10:32:55 +0800</pubDate>
       
-      <guid>http://top1520.com/post/2020061810/</guid>
+      <guid>https://top1520.com/post/2020061810/</guid>
       <description>1、打开第一个cmd窗口执行 net stop mysql57 2、在第一个cmd窗口执行 mysqld &amp;ndash;defaults-file=&amp;ldquo;C:\ProgramData\MySQL\MySQL Server 5.7\my.ini&amp;rdquo; &amp;ndash;skip-grant-tables &amp;mdash;注意路径（以你的实际情况为准） 3、打开第二个cmd窗口执</description>
     </item>
     
     <item>
       <title>mysql使用记录</title>
-      <link>http://top1520.com/post/usemysql/</link>
+      <link>https://top1520.com/post/usemysql/</link>
       <pubDate>Wed, 10 Jun 2020 11:20:28 +0800</pubDate>
       
-      <guid>http://top1520.com/post/usemysql/</guid>
+      <guid>https://top1520.com/post/usemysql/</guid>
       <description>#查看数据库物理存放目录： show variables like &amp;quot;%datadir%&amp;quot; #查看所有数据库：show databases #选择数据库：use your_db_name #查看数据库表结构(需要先选择数据库【use your_d</description>
     </item>
     
